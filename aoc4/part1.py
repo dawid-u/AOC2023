@@ -1,7 +1,7 @@
 with open('input.txt', 'r') as file:
     cp = []
     for line in file:
-        cp.append(line[8:].strip("\n").split("|"))
+        cp.append(line[10:].strip("\n").split("|"))
     total = 0
     for index, line in enumerate(cp):
         copy = []
