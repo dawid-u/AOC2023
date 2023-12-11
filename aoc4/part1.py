@@ -15,4 +15,4 @@ with open('input.txt', 'r') as file:
                 else:
                     value = value*2
         total += value
-        print(total, line, index)
+        print(total)
